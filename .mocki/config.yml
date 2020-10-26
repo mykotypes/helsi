@@ -2,17 +2,20 @@ name: mocki
 port: 3001
 endpoints:
   - path: /random
-      method: get
-      behavior: random
-      responses:
-        - statusCode: 200
-          body:
-            ugensElForbrug: 35
-            sidsteUgesElForbrug: 33
-        - statusCode: 200
-          body:
-            ugensElForbrug: 37
-            sidsteUgesElForbrug: 42 
-          headers:
-            - name: content-type
-              value: application/json
+    method: get
+    behavior: random
+    responses:
+      - statusCode: 200
+        body:
+          ugensElForbrug: 35
+          sidsteUgesElForbrug: 33
+        headers:
+          - name: content-type
+            value: application/json
+      - statusCode: 200
+        body:
+          ugensElForbrug: 44
+          sidsteUgesElForbrug: 86
+        headers:
+          - name: content-type
+            value: application/json
