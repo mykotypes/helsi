@@ -1,13 +1,9 @@
-endpoints:
-  - path: /random
+name: mocki
+  port: 3000
+  endpoints:
+    - path: /hello
       method: get
-      behavior: random
       responses:
         - statusCode: 200
           body:
-            ugensElForbrug: 35
-            sidsteUgesElForbrug: 33
-        - statusCode: 200
-          body:
-            ugensElForbrug: 37
-            sidsteUgesElForbrug: 42  
+            message: Hello from Mocki!
