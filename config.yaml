@@ -1,0 +1,13 @@
+endpoints:
+  - path: /random
+      method: get
+      behavior: random
+      responses:
+        - statusCode: 200
+          body:
+            ugensElForbrug: 35
+            sidsteUgesElForbrug: 33
+        - statusCode: 200
+          body:
+            ugensElForbrug: 37
+            sidsteUgesElForbrug: 42  
