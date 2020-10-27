@@ -7,15 +7,15 @@ endpoints:
     responses:
       - statusCode: 200
         body:
-          ugensElForbrug: 35
-          sidsteUgesElForbrug: 33
+          ugensCO2: 0.35
+          sidsteUgesElCO2: 0.33
         headers:
           - name: content-type
             value: application/json
       - statusCode: 200
         body:
-          ugensElForbrug: 44
-          sidsteUgesElForbrug: 86
+          ugensCO2: 0.44
+          sidsteUgesElCO2: 0.86
         headers:
           - name: content-type
             value: application/json
